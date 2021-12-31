@@ -15,7 +15,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'pe viitor',
+      title: 'some name',
       template: path.resolve(__dirname, './src/index.html'), // template file
       filename: 'index.html', // output file
       chunks: ['main']
